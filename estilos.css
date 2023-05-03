@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Poppins & family= Roboto & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .navbar {
+  background-color: #ea1e52;
+  min-height: 90px;
+}
+header .navbar span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+header .navbar .navbar-toggler {
+  border: none;
+}
+header .navbar .navbar-toggler i {
+  color: coral;
+}
+header .navbar .nav-link {
+  color: #fff !important;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2px;
+}
+header .navbar .nav-link:hover {
+  background-color: coral;
+  border-radius: 4px;
+  transition: 0.5 s;
+}
+
+/*# sourceMappingURL=estilos.css.map */
