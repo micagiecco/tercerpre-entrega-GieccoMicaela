@@ -244,7 +244,7 @@ footer p i:hover {
 }
 .jumbotron h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   color: black;
@@ -336,4 +336,65 @@ footer p i:hover {
 }
 .footer2 p i:hover {
   color: coral;
+}
+
+.jumbotron2 {
+  background-color: #878ec2;
+  width: 100%;
+  height: 100px;
+}
+.jumbotron2 h1 {
+  text-align: center;
+  background-position: center;
+  padding: 60px;
+}
+
+.imyd {
+  background-color: #878ec2;
+}
+.imyd h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+}
+.imyd .servi {
+  border: 5px solid #553b79;
+  margin-top: 60px;
+  padding: 20px;
+  margin-left: 30px;
+  text-align: center;
+  background-image: linear-gradient(to top, #90c296, #878ec2);
+}
+.imyd .servi:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.imyd .icons2 {
+  width: 90px;
+  height: 100px;
+}
+.imyd h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.imyd p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.footer3 {
+  background-color: #878ec2;
+  /*background-image: linear-gradient( to bottom right, $color5, $color2);*/
+  margin-top: 50px;
+  width: 100%;
+}
+.footer3 .contacto3 {
+  color: #553b79;
 }/*# sourceMappingURL=estilos.css.map */

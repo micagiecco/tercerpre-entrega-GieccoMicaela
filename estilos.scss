@@ -381,7 +381,7 @@ footer {
 
     h1 {
         text-align: center;
-        font-size: 50px;
+        font-size: 45px;
         font-weight: bold;
         font-family: $font2;
         color: black;
@@ -497,3 +497,95 @@ footer {
 
         }
     }
+
+//fin footer 2//
+
+//fin sobre nosotros//
+
+//inicia más info//
+
+//inicia jumbotron 2//
+
+.jumbotron2 {
+
+    background-color: $color5;
+    width: 100%;
+    height: 100px;
+
+    h1 {
+        text-align: center;
+        background-position: center;
+        padding: 60px;
+    }
+}
+
+//fin jumbotron 2//
+
+//inicia información de servicios//
+
+.imyd {
+
+    background-color: $color5 ;
+    
+    
+    h1 {
+
+        text-align: center;
+        font-size: 50px;
+        font-family: $font2;
+        padding: 30px;
+
+
+    }
+
+    .servi {
+        border: 5px solid $color4;
+        margin-top:60px;
+        padding: 20px;
+        margin-left: 30px;
+        text-align: center;
+        background-image: linear-gradient( to top, $color6, $color5);
+    }
+
+    .servi:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .icons2 {
+
+        width: 90px;
+        height: 100px;
+
+    }
+
+    h3 {
+        font-family: $font2;
+        font-size: 30px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    p {
+        font-family: $font2;
+        color: black;
+        text-align: center;
+    }
+    }
+
+
+.footer3 {
+    background-color: $color5 ;
+    
+    /*background-image: linear-gradient( to bottom right, $color5, $color2);*/
+    margin-top: 50px;
+    width: 100%;
+
+    .contacto3 {
+        color: $color4;
+    }
+}
