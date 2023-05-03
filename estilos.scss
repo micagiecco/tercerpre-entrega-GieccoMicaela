@@ -26,6 +26,11 @@ $color6: #90c296;
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 header {
 
     width: 100%;
@@ -66,6 +71,8 @@ header {
 }
 
 //fin barra de navegación
+
+//inicia inicio//
 
 //inicia carrusel
 
@@ -355,3 +362,138 @@ footer {
     }
 
 }
+
+//fin inicio//
+
+//inicia sobre nosotros//
+
+//inicia jumbotron//
+
+.jumbotron {
+
+    background-color: $color4;
+    background-image: linear-gradient( to top, $color4, $color6);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    margin-bottom: 0;
+    
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: $font2;
+        color: black;
+        text-shadow: 5px 5px 5px $color4;
+        text-transform: uppercase;
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        
+    }
+    @keyframes aparecer {
+
+        0%{
+            opacity: 0;
+        }
+        
+        100%{
+            opacity: 1;
+        }
+    }
+    p {
+        margin-left: 30px;
+        margin-top: 60px;
+        color: black;
+
+        i {
+            color: black;
+
+        }
+    }
+}
+
+//fin jumbotron//
+
+.agencia {
+
+    background-color: $color6;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.agencia2 {
+    background-color: $color6;
+    padding: 70px;
+
+    img {
+        width: 1500px;
+        height: 500px;
+        padding-top: 30px;
+
+    }
+}
+
+.equipo {
+    background-color: #90c296;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+    margin-bottom: 0;
+
+}
+
+.equipo1 {
+    background-color: $color6;
+
+    img {
+        width: 300px;
+        height: 450px;
+    }
+
+    h4 {
+        color: $color4;
+        font-weight: bold;
+        font-family: $font2;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    p {
+        color: $color4;
+        font-family: $font2;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+
+//inicia footer 2//
+
+.footer2 {
+    background-color: $color4;
+
+    h5 {
+        color: $color6;
+
+    }
+
+    p {
+        color: $color6;
+
+        i{
+            color: $color6;
+        }
+        i:hover {
+            color: $color2;
+        }
+
+        }
+    }
