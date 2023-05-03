@@ -12,6 +12,11 @@ $font3: 'Roboto', sans-serif;
 $color1: #ea1e52;
 $color2: coral;
 $color3: rgba(41, 23, 1, 0.5);
+$color4: #553b79;
+$color5: #878ec2;
+$color6: #90c296;
+
+
 
 
 * {
@@ -66,7 +71,7 @@ header {
 
 .main1 {
     width: 100%;
-    background-color: $color2;
+    background-color: $color6;
 
     .container {
 
@@ -83,6 +88,19 @@ header {
             background-color: $color3;
             text-align: center;
             margin-bottom: 100px;
+
+            h1 {
+                color: $color6;
+                text-shadow: 5px 5px 5px $color4;
+                font-family: $font3;
+
+            }
+
+            p {
+                color: wheat;
+                text-shadow: 2px 2px 2px $color4;
+                font-family: $font3;
+            }
 
         }
 
@@ -101,17 +119,21 @@ header {
     text-align: center;
     padding: 30px;
     font-family: $font2;
-    margin-bottom: 0;    
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
+
 
 .marca {
 
     width: 100%;
     height: auto;
-    background-color: $color2;
+    background-color: $color5;
     margin-bottom: 0;
 
-    
+
 
     .nleft {
         width: 100%;
@@ -122,7 +144,7 @@ header {
         margin-left: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
-        
+
 
     }
 
@@ -130,7 +152,7 @@ header {
 
         transform: scale(1.1);
         transition: 1s;
-        cursor:pointer;
+        cursor: pointer;
     }
 
 
@@ -144,7 +166,7 @@ header {
         margin-left: 30px;
         margin-top: 30px;
         margin-bottom: 30px;
-        
+
 
     }
 
@@ -152,19 +174,25 @@ header {
 
         transform: scale(1.1);
         transition: 1s;
-        cursor:pointer;
+        cursor: pointer;
     }
 
 
     .nright {
         width: 100%;
         height: 250px;
-        margin-top: 40px;
+        margin-top: 100px;
         text-align: center;
-        background-color: $color3;
         margin-left: 30px;
-        font-family: $font2;
-        font-size: 20px;
+
+        p {
+            font-family: $font2;
+            font-size: 20px;
+            color: $color4;
+            font-weight: bold;
+            box-shadow: 3px 3px 3px $color4;
+
+        }
 
     }
 
@@ -172,8 +200,158 @@ header {
 
         transform: scale(1.1);
         transition: 1s;
-        cursor:pointer;
+        cursor: pointer;
     }
 
+
+}
+
+//fin hacemos que tu marca se destaca
+
+//inicia cómo lo hacemos
+
+.clh {
+
+    @extend.marcah2
+}
+
+.sec2 {
+
+    width: 100%;
+    height: 400px;
+    background-color: $color2;
+
+    .divp {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex;
+        margin-top: 50px;
+
+        p {
+            height: 250px;
+            background-color: $color3;
+            background-position: center;
+            font-family: $font2;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+
+        }
+    }
+}
+
+//inicio servicios
+
+
+.servicios {
+
+    width: 100%;
+    background-color: $color4;
+    padding: 30px;
+    margin-bottom: 0;
+
+    .col {
+
+        margin-left: 50px;
+
+        .icons {
+
+            width: 70px;
+            height: 70px;
+        }
+
+        .icons:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+
+    }
+
+
+    h4 {
+        text-align: center;
+        font-size: 20px;
+        color: $color2;
+        font-family: $font3;
+        padding: 10px;
+    }
+
+    h4:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: center;
+        font-size: 15px;
+        color: $color5;
+        font-family: $font3;
+    }
+
+    p:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+}
+
+.masinfo {
+    margin-top: 400px;
+    color: $color2;
+    font-size: 15px;
+    font-family: $font3;
+    text-align: center;
+
+}
+
+.masinfo:hover {
+
+    color: $color5;
+}
+
+//fin servicios//
+
+//inicia footer//
+
+footer {
+
+    background-color: $color6;
+
+    iframe {
+        padding: 20px;
+    }
+
+    h5 {
+
+        padding-top: 30px;
+        color: $color4;
+        font-family: $font1;
+        font-weight: bold;
+
+    }
+
+    p {
+
+        font-size: 20px;
+        color: $color4;
+        font-family: $font1;
+
+        i {
+            font-size: 30px;
+            color: $color4;
+        }
+
+        i:hover {
+            color: $color2;
+        }
+    }
 
 }
