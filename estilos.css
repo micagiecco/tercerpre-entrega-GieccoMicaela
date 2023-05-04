@@ -397,4 +397,42 @@ footer p i:hover {
 }
 .footer3 .contacto3 {
   color: #553b79;
+}
+
+.jumbotron3 {
+  background-color: #ede119;
+  text-align: center;
+  height: 100 px;
+  padding: 20px;
+}
+
+.portfolio {
+  background-color: #ede119;
+  padding: 30px;
+  margin-bottom: 0;
+}
+.portfolio img {
+  width: 450 px;
+  height: 300px;
+}
+.portfolio .port:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.footer4 {
+  background-color: #553b79;
+}
+.footer4 h5 {
+  color: #ede119;
+}
+.footer4 p {
+  color: #ede119;
+}
+.footer4 p i {
+  color: #ede119;
+}
+.footer4 p i:hover {
+  color: #878ec2;
 }/*# sourceMappingURL=estilos.css.map */

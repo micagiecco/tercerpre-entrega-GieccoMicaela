@@ -15,6 +15,7 @@ $color3: rgba(41, 23, 1, 0.5);
 $color4: #553b79;
 $color5: #878ec2;
 $color6: #90c296;
+$color7:#ede119;
 
 
 
@@ -589,3 +590,64 @@ footer {
         color: $color4;
     }
 }
+
+
+//fin información de servicios//
+
+//inicio portfolio//
+
+//inicia jumbotron 3//
+.jumbotron3 {
+
+    background-color: $color7;
+    text-align: center;
+    height: 100 px;
+    padding: 20px;
+}
+//fin jumbotron 3//
+
+.portfolio {
+
+    background-color: $color7;
+    padding: 30px;
+    margin-bottom: 0;
+
+    img {
+
+        width: 450 px;
+        height: 300px;
+    }
+
+    .port:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+}
+
+//inicio footer 4//
+
+.footer4 {
+
+    background-color: $color4;
+
+    h5 {
+        color:$color7;
+    }
+
+    p {
+        color:$color7;
+
+        i {
+            color: $color7;
+        }
+
+        i:hover {
+
+            color: $color5;
+        }
+    }
+}
+//fin footer4//
+//fin portfolio//
