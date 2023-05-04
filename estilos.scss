@@ -651,3 +651,96 @@ footer {
 }
 //fin footer4//
 //fin portfolio//
+
+// inicio contactanos //
+
+.main5 {
+    background-color: #732b58;
+    width: 100%;
+    height: 800 px;
+
+    h1 {
+
+        font-family: $font2;
+        font-size: 50px;
+        color: $color2;
+        text-align: center;
+    }
+
+    h5 {
+        font-family: $font2;
+        font-size: 20px;
+        text-align: center;
+        color: $color2;
+    }
+
+}
+
+//inicio formulario//
+.formulario {
+    width: 400px;
+    background-color: $color2;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: $font2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#732b58;
+
+    .field {
+        width: 100%;
+        background-color: $color2;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #732b58;
+        font-family: $font2;
+        
+        
+
+    }
+    .btn {
+        width: 100%;
+        height: 30px;
+        background-color: #732b58;
+        font-family: $font2;
+        font-size: 20px;
+        color:#fff;
+        text-align: center;
+        background-position: center;
+    }
+}
+//fin formulario//
+
+
+//inicia footer 5//
+
+.footer5 {
+
+    background-color: $color2;
+
+    h5 {
+        color:$color4;
+
+    }
+
+    p {
+
+        color: $color4;
+
+        i{
+            font-size: 30px;
+            color: $color4;
+        }
+
+        i:hover {
+
+            color:$color5;
+        }
+    };
+}
+//fin footer 5//
+// fin contactanos //

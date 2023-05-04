@@ -435,4 +435,72 @@ footer p i:hover {
 }
 .footer4 p i:hover {
   color: #878ec2;
+}
+
+.main5 {
+  background-color: #732b58;
+  width: 100%;
+  height: 800 px;
+}
+.main5 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: coral;
+  text-align: center;
+}
+.main5 h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: coral;
+}
+
+.formulario {
+  width: 400px;
+  background-color: coral;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #732b58;
+}
+.formulario .field {
+  width: 100%;
+  background-color: coral;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #732b58;
+  font-family: "Poppins", sans-serif;
+}
+.formulario .btn {
+  width: 100%;
+  height: 30px;
+  background-color: #732b58;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-position: center;
+}
+
+.footer5 {
+  background-color: coral;
+}
+.footer5 h5 {
+  color: #553b79;
+}
+.footer5 p {
+  color: #553b79;
+}
+.footer5 p i {
+  font-size: 30px;
+  color: #553b79;
+}
+.footer5 p i:hover {
+  color: #878ec2;
 }/*# sourceMappingURL=estilos.css.map */
